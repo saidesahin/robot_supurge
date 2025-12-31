@@ -1,0 +1,14 @@
+material QRBedroomMaterial
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture qr_bedroom.png
+        filtering trilinear
+      }
+    }
+  }
+}

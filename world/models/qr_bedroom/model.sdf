@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="qr_bedroom">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <size>0.25 0.25</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://qr_bedroom/materials/scripts</uri>
+            <uri>model://qr_bedroom/materials/textures</uri>
+            <name>QRBedroomMaterial</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="qr_corridor">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <size>0.25 0.25</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://qr_corridor/materials/scripts</uri>
+            <uri>model://qr_corridor/materials/textures</uri>
+            <name>QRCorridorMaterial</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,14 @@
+material QRCorridorMaterial
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture qr_corridor.png
+        filtering trilinear
+      }
+    }
+  }
+}

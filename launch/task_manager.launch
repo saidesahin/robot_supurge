@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="robot_supurge" type="qr_reader.py" name="qr_reader" output="screen"/>
+  <node pkg="robot_supurge" type="task_manager.py" name="task_manager" output="screen">
+    <param name="mission_file" value="$(find robot_supurge)/config/mission.yaml"/>
+  </node>
+</launch>

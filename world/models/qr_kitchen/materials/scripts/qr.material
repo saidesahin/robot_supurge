@@ -1,0 +1,14 @@
+material QRKitchenMaterial
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture qr_kitchen.png
+        filtering trilinear
+      }
+    }
+  }
+}
