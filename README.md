@@ -1,4 +1,4 @@
-# 🧹 Süpürge Robotu: Oda Bazlı Temizlik ve QR Doğrulama
+# Süpürge Robotu: Oda Bazlı Temizlik ve QR Doğrulama
 
 Bu proje, **KTÜN Robotiğe Giriş Dersi** final ödevi kapsamında geliştirilmiştir. Proje, bir TurtleBot3 robotunun Gazebo ortamında otonom haritalama yapmasını, belirlenen odalara giderek QR kodlar aracılığıyla konumunu doğrulamasını ve her oda için temizlik rotalarını tamamlamasını amaçlar.
 
@@ -20,7 +20,7 @@ pip3 install pyzbar opencv-python
 
 ---
 
-## 📂 Dosya Yapısı
+## Dosya Yapısı
 robot_supurge/
 ├── config/
 │   └── mission.yaml          
@@ -47,7 +47,7 @@ robot_supurge/
 
 ---
 
-## 🚀 Çalıştırma Adımları
+## Çalıştırma Adımları
 
 ### 1. Aşama: Haritalama (SLAM)
 Robotu manuel gezdirerek haritayı oluşturun:
@@ -72,7 +72,7 @@ roslaunch robot_supurge task_manager.launch
 
 ---
 
-## 🧠 Durum Makinesi (FSM) Akışı
+## Durum Makinesi (FSM) Akışı
 Program şu aşamaları takip eder:
 1. **INIT**: Navigasyon sunucusuna bağlanır.
 2. **GO_TO_ROOM_ENTRY**: Odanın giriş kapısına gider.
